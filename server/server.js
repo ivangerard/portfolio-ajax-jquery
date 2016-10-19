@@ -6,8 +6,12 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var app = express()
 var port = process.env.PORT || 8080;
+var fileUpload = require('express-fileupload');
+
 
 mongoose.connect('mongodb://localhost/ivangerardcart')
+//buat upload
+app.use(fileUpload());
 app.use(cors())
 app.use(morgan('dev')); // parse application/json
 app.use(bodyParser.json({

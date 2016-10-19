@@ -8,7 +8,7 @@ module.exports = {
 }
 
 function insert(req, res, next) {
-
+  var sampleFile
     var items = new Items({
         item_code: req.body.item_code,
         name: req.body.name,

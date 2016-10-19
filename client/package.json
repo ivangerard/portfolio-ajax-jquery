@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-ajax-jquery",
+  "version": "0.1.0",
+  "description": "Creating a beautiful website using ajax and jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangerard/portfolio-semanticweb.git"
+  },
+  "keywords": [
+    "bootstrap","ajax","jquery"
+  ],
+  "author": "Ivan Gerard <me@ivangerard.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivangerard/portfolio-semanticweb/issues"
+  },
+  "homepage": "https://github.com/ivangerard/portfolio-semanticweb#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "bootstrap": "^4.0.0-alpha.2",
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "jquery": "^3.1.1",
+    "webpack": "^1.13.2",
+    "webpack-stream": "^3.2.0"
+  }
+}
